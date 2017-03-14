@@ -1,0 +1,276 @@
+[ 2017-03-08T08:33:36+08:00 ] 192.168.0.126 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-03-08T11:36:01+08:00 ] 192.168.0.136 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-03-08T15:20:39+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:20:39+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:20:49+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:20:49+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:27:01+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:27:02+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:44:11+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:44:11+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:44:26+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:44:26+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:44:37+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:44:37+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:45:50+08:00 ] 127.0.0.1 /Public/assets/src/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:45:50+08:00 ] 127.0.0.1 /Public/assets/src/examples.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:45:51+08:00 ] 127.0.0.1 /Public/assets/src/bootstrap-table/src/bootstrap-table.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:45:51+08:00 ] 127.0.0.1 /Public/assets/src/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:45:51+08:00 ] 127.0.0.1 /Public/assets/src/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:47:34+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:47:34+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:47:38+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:47:38+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/bootstrap-table.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:49:04+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/extensions/export/bootstrap-table-export.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:49:26+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/extensions/export/bootstrap-table-export.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:51:27+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/extensions/export/bootstrap-table-export.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:56:34+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/extensions/export/bootstrap-table-export.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:56:43+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/extensions/export/bootstrap-table-export.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T15:56:59+08:00 ] 127.0.0.1 /Public/assets/bootstrap-table/src/extensions/export/bootstrap-table-export.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T16:01:37+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?order=asc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:05:42+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?sort=name&order=desc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:07:59+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?order=asc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:09:34+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?order=asc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:11:40+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?order=asc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:12:04+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?sort=id&order=asc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:12:06+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?sort=id&order=desc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:12:34+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?order=asc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:12:55+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?order=asc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:13:36+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?sort=name&order=desc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:14:57+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?sort=name&order=asc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:15:00+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?sort=name&order=desc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:29:21+08:00 ] 127.0.0.1 /examples/bootstrap_table/data?order=asc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Examples
+
+[ 2017-03-08T16:35:13+08:00 ] 127.0.0.1 /Public/bootstrap_table/data?order=asc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T16:35:49+08:00 ] 127.0.0.1 /Public/bootstrap_table/data?order=asc&offset=0&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-08T18:22:17+08:00 ] 192.168.0.8 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-03-08T18:29:29+08:00 ] 192.168.0.95 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+

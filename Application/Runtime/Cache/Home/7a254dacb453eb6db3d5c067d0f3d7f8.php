@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>上传文件后缀不允许

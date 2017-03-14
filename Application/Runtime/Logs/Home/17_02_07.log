@@ -1,0 +1,1205 @@
+[ 2017-02-07T17:35:21+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: EXEC Z_P_FinancialProfit '1','2017-02-01','2017-02-06','''01-buy,02-2008,03-aatq '''--,'','',0,'6' [ RunTime:0.6590s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:37:10+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+ERR: 102:[Microsoft][ODBC Driver 11 for SQL Server][SQL Server]'FBW仓库' 附近有语法错误。
+ [ SQL语句 ] : EXEC Z_P_FinancialProfit '1','2017-01-01','2017-02-06','',''','''FBW仓库,AMZ上海仓,FBA仓库,4PXUS ''',0,'6'
+ERR: 102:[Microsoft][ODBC Driver 11 for SQL Server][SQL Server]'FBW仓库' 附近有语法错误。
+ [ SQL语句 ] : EXEC Z_P_FinancialProfit '1','2017-01-01','2017-02-06','',''','''FBW仓库,AMZ上海仓,FBA仓库,4PXUS ''',0,'6'
+
+[ 2017-02-07T17:37:42+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+ERR: 102:[Microsoft][ODBC Driver 11 for SQL Server][SQL Server]'FBW仓库' 附近有语法错误。
+ [ SQL语句 ] : EXEC Z_P_FinancialProfit '1','2017-01-01','2017-02-06','',''','''FBW仓库,AMZ上海仓,FBA仓库,4PXUS ''',0,'6'
+ERR: 102:[Microsoft][ODBC Driver 11 for SQL Server][SQL Server]'FBW仓库' 附近有语法错误。
+ [ SQL语句 ] : EXEC Z_P_FinancialProfit '1','2017-01-01','2017-02-06','',''','''FBW仓库,AMZ上海仓,FBA仓库,4PXUS ''',0,'6'
+
+[ 2017-02-07T17:38:12+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-01','2017-02-06','','','''FBW仓库,AMZ上海仓,FBA仓库,4PXUS ''',0,'6' [ RunTime:7.7214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:38:29+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-01','2017-02-06','','','''FBA仓库,4PXUS ''',0,'6' [ RunTime:7.1804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:39:50+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-01','2017-02-06','','''计智君,魏爱民,杨云珍 ''','',0,'6' [ RunTime:7.2944s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:40:20+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-01','2017-02-06','','''计智君 ''','',0,'2' [ RunTime:6.8134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:42:20+08:00 ] 192.168.0.95 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: session_name D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ParentController.class.php 第 43 行.
+
+[ 2017-02-07T17:42:20+08:00 ] 192.168.0.95 /home/users/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T17:42:20+08:00 ] 192.168.0.95 /home/users/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:42:22+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-01','2017-02-06','','''计智君 ''','',0,'2' [ RunTime:6.7304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:43:09+08:00 ] 192.168.0.8 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='毕郑强' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0120s ]
+SQL: select * from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:43:40+08:00 ] 192.168.0.95 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: session_name D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ParentController.class.php 第 43 行.
+
+[ 2017-02-07T17:43:40+08:00 ] 192.168.0.95 /home/users/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T17:43:48+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-29','2017-02-01','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','''义务仓 ''',0,'6' [ RunTime:0.3900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T17:44:10+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0090s ]
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-29','2017-02-01','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','''义务仓 ''',0,'6' [ RunTime:0.4010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-07T17:44:11+08:00 ] 192.168.0.95 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='毕郑强' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0100s ]
+SQL: select * from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T17:44:15+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: BeginDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: EndDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: ExchangeRate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','','','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.3130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:44:21+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: BeginDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: EndDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: ExchangeRate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','','','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.3220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:44:22+08:00 ] 192.168.0.95 /home/product/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T17:44:28+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: BeginDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: EndDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: ExchangeRate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0220s ]
+SQL: EXEC Z_P_FinancialProfit '1','','','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:44:51+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: BeginDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: EndDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: ExchangeRate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','','','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:45:04+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: BeginDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: EndDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: ExchangeRate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','','','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:45:11+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: BeginDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: EndDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: ExchangeRate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','','','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T17:45:15+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: BeginDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: EndDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: ExchangeRate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','','','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T17:45:18+08:00 ] 192.168.0.95 /home/users/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:45:18+08:00 ] 192.168.0.95 /home/users/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T17:45:20+08:00 ] 192.168.0.95 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='毕郑强' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0100s ]
+SQL: select * from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1185 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1188 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1189 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1190 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1191 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1192 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1193 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1194 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1195 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 1196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:45:22+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: BeginDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: EndDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: ExchangeRate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','','','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-07T17:45:53+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-31','2017-02-02','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:48:24+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-31','2017-02-02','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6.8' [ RunTime:0.2640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:52:30+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-31','2017-02-02','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:54:01+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: BeginDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: EndDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: ExchangeRate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0100s ]
+SQL: EXEC Z_P_FinancialProfit '1','','','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T17:54:33+08:00 ] 192.168.0.8 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: BeginDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: EndDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: ExchangeRate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0090s ]
+SQL: EXEC Z_P_FinancialProfit '1','','','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:54:36+08:00 ] 192.168.0.8 /home/users/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T17:54:36+08:00 ] 192.168.0.8 /home/users/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-07T17:55:52+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0130s ]
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-31','2017-02-02','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:56:02+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0120s ]
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-31','2017-02-02','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:56:10+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0130s ]
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-31','2017-02-02','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:56:18+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0160s ]
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-31','2017-02-02','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:56:25+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0130s ]
+SQL: EXEC Z_P_FinancialProfit '1','2017-01-31','2017-02-02','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.2600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-07T17:56:57+08:00 ] 192.168.0.95 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: BeginDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 16 行.
+NOTIC: [8] Undefined index: EndDate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: ExchangeRate D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: select suffix from Y_SuffixSalerman where salesman='毕郑强' [ RunTime:0.0130s ]
+SQL: EXEC Z_P_FinancialProfit '1','','','''eBay-02-supermarket6,eBay-04-chuangrong89,eBay-05-dangoyoung06,eBay-08-landchuang77,eBay-11-monstercaca,eBay-14-lonelyway ''','','',0,'6' [ RunTime:0.3180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

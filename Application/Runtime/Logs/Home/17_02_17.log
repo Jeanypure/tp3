@@ -1,0 +1,659 @@
+[ 2017-02-17T08:09:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: session_name D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ParentController.class.php 第 43 行.
+
+[ 2017-02-17T08:09:07+08:00 ] 127.0.0.1 /home/users/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-17T08:09:08+08:00 ] 127.0.0.1 /home/users/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:09:15+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='计智君' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0120s ]
+SQL: select * from Y_manger WHERE manger='计智君' [ RunTime:0.0090s ]
+SQL: select * from Y_SuffixSalerman where salesman='计智君' order by suffix asc [ RunTime:0.0080s ]
+SQL: select distinct pingtai from Y_suffixPingtai ysp
+                LEFT JOIN Y_SuffixSalerman yss ON yss.suffix=ysp.suffix
+                WHERE yss.salesman='计智君' 
+                 order by pingtai asc [ RunTime:0.0130s ]
+NOTIC: [8] Undefined variable: salesman D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\UsersController.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 296 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 299 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 300 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 301 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 302 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 303 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 304 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 305 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 306 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 307 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 296 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 299 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 300 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 301 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 302 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 303 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 304 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 305 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 306 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 307 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 296 行.
+NOTIC: [8] Undefined index: salemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 299 行.
+NOTIC: [8] Undefined index: salemoneyzn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 300 行.
+NOTIC: [8] Undefined index: ebayfeeebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 301 行.
+NOTIC: [8] Undefined index: ebayfeeznebay D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 302 行.
+NOTIC: [8] Undefined index: ppfee D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 303 行.
+NOTIC: [8] Undefined index: ppfeezn D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 304 行.
+NOTIC: [8] Undefined index: costmoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 305 行.
+NOTIC: [8] Undefined index: inpackagemoney D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 306 行.
+NOTIC: [8] Undefined index: storename D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\3bbe64ace249de2aa16729dbd6d072c6.php 第 307 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:17:10+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='计智君' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0090s ]
+SQL: select * from Y_manger WHERE manger='计智君' [ RunTime:0.0090s ]
+SQL: select * from Y_SuffixSalerman where salesman='计智君' order by suffix asc [ RunTime:0.0090s ]
+SQL: select distinct pingtai from Y_suffixPingtai ysp
+                LEFT JOIN Y_SuffixSalerman yss ON yss.suffix=ysp.suffix
+                WHERE yss.salesman='计智君' 
+                 order by pingtai asc [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: salesman D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\UsersController.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-17T08:20:56+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0110s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0090s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0090s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0100s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:22:18+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0110s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0100s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0100s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0110s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:23:59+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0090s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0080s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0120s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0090s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:24:12+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0080s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0080s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0090s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0080s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:24:49+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0090s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0080s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0090s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0080s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:25:53+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0090s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0100s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0120s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0100s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:29:00+08:00 ] 127.0.0.1 /home/users/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-17T08:29:05+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0090s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0100s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0080s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0080s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+ERR: syntax error, unexpected '>'
+
+[ 2017-02-17T08:29:16+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0080s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0070s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0080s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0090s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:29:59+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0070s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0070s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0080s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0070s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-17T08:30:16+08:00 ] 127.0.0.1 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: EXEC Z_P_FinancialProfit 'Amazon','1','2017-01-29','2017-02-16','','','',0,'6' [ RunTime:6.6954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:30:17+08:00 ] 127.0.0.1 /home/product/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-17T08:30:48+08:00 ] 127.0.0.1 /home/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: saler D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: suffix D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: StoreName D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ProductController.class.php 第 21 行.
+SQL: EXEC Z_P_FinancialProfit 'Wish','1','2017-01-29','2017-02-16','','','',0,'6' [ RunTime:3.9922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+NOTIC: [8] Use of undefined constant 汇总 - assumed '汇总' D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\de371bc6c1e5d45947360ce567c02ee1.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-17T08:34:24+08:00 ] 127.0.0.1 /home/ulist/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-17T08:34:24+08:00 ] 127.0.0.1 /home/ulist//Public/assets/img/avatar2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:34:25+08:00 ] 127.0.0.1 /home/ulist//Public/assets/img/avatar3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-17T08:34:25+08:00 ] 127.0.0.1 /home/ulist//Public/assets/img/avatar1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-17T08:35:46+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0080s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0080s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0070s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0070s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:39:37+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0100s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0090s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0100s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0100s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T08:39:54+08:00 ] 127.0.0.1 /home/return_fee/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options D:\phpStudy20161103\WWW\tp3\ThinkPHP\Library\Org\Util\PHPExcel\Settings.php 第 384 行.
+NOTIC: [8] Use of undefined constant A1 - assumed 'A1' D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ReturnFeeController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant B1 - assumed 'B1' D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ReturnFeeController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant C1 - assumed 'C1' D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ReturnFeeController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant D1 - assumed 'D1' D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ReturnFeeController.class.php 第 96 行.
+SQL: insert into Y_ReturnFee values('Wish','WISE43-ringringlee2','today','100') [ RunTime:0.0160s ]
+ERR: -15:The active result for the query contains no fields.
+ [ SQL语句 ] : insert into Y_ReturnFee values('Wish','WISE43-ringringlee2','today','100')
+ERR: -15:The active result for the query contains no fields.
+ [ SQL语句 ] : insert into Y_ReturnFee values('Wish','WISE43-ringringlee2','today','100')
+
+[ 2017-02-17T16:49:24+08:00 ] 192.168.0.8 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: session_name D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\ParentController.class.php 第 43 行.
+
+[ 2017-02-17T16:49:24+08:00 ] 192.168.0.8 /home/users/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T16:49:24+08:00 ] 192.168.0.8 /home/users/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-17T16:49:31+08:00 ] 192.168.0.8 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0140s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0090s ]
+SQL: select suffix from Y_SuffixSalerman order by suffix asc  [ RunTime:0.0100s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0090s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,29 @@
+/* here you can put your own css to customize and override the theme */
+* {
+/* 	font-family: Microsoft YaHei, SimSun, Arial, Verdan, Sans-Serif; */
+}
+/* algin */
+.ac {
+	text-align: center;
+}
+
+.ar {
+	text-align: right;
+}
+
+.page-title, h1, h2, h3, h4, h5, h6 {
+}
+
+.table label {
+	margin: 0;
+}
+
+.table .checkbox-column, .table .opt-column {
+	width: 20px;
+	white-space: nowrap;
+}
+
+.table-checkable tbody tr.checked td {
+	background-color: #eaf8ff;
+	background-color: rgba(148, 219, 255, 0.2)
+}

@@ -1,0 +1,268 @@
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="__PUBLIC__/assets/plugins/respond.min.js"></script>
+<script src="__PUBLIC__/assets/plugins/excanvas.min.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="__PUBLIC__/assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript" ></script>
+<script src="__PUBLIC__/assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script>
+<!-- END CORE PLUGINS -->
+<script src="__PUBLIC__/assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+<script src="__PUBLIC__/assets/scripts/app.js"></script>
+<script src="__PUBLIC__/js/ajaxfileupload.js"></script>
+
+
+
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+
+
+<script>
+    $(document).ready(function(){
+
+        //显示退款费用的页面 return-fee-btn
+        $('#return-fee-btn').click(function(){
+            console.log(888);
+            $('.page').hide();
+            $('#return-fee').show();
+        });
+
+    });
+</script>
+<script>
+
+
+    jQuery(document).ready(function() {
+//         App.init();
+
+        //侧边栏点击效果
+        $('.mylist').click(function(){
+            $('.mylist').not(this).removeClass('active');
+            $('.mylist').children('a').children('.arrow').removeClass('open');
+            $('.mylist').children('a').children('.select').removeClass('selected');
+            $(this).children('a').children('.select').addClass('selected');
+            $(this).children('a').children('.arrow').addClass('open');
+            $(this).addClass('active');
+            return false;
+        });
+
+        //显示主页页面
+        $('#home-btn').click(function(){
+//				$('#goodslist').hide();
+            $('.page').hide();
+            $('#home-page').show();
+        });
+
+
+        //显示商品添加页面
+        $('#goodsadd-btn').click(function(){
+//				$('#goodslist').hide();
+            $('.page').hide();
+            $('#goodsadd').show();
+        });
+
+        //side边缩放效果
+        $('.page-sidebar, .header').on('click','.sidebar-toggler',function(e) {
+            var body = $('body');
+            var sidebar = $('.page-sidebar');
+
+            if ((body.hasClass("page-sidebar-hover-on") && body.hasClass('page-sidebar-fixed')) || sidebar.hasClass('page-sidebar-hovering')) {
+                body.removeClass('page-sidebar-hover-on');
+                sidebar.css('width', '').hide().show();
+                $.cookie('sidebar_closed', '0');
+                e.stopPropagation();
+                return;
+            }
+
+            $(".sidebar-search", sidebar).removeClass("open");
+
+            if (body.hasClass("page-sidebar-closed")) {
+                body.removeClass("page-sidebar-closed");
+                if (body.hasClass('page-sidebar-fixed')) {
+                    sidebar.css('width', '');
+                }
+                $.cookie('sidebar_closed', '0');
+            } else {
+                body.addClass("page-sidebar-closed");
+                $.cookie('sidebar_closed', '1');
+            }
+        });
+
+
+        //显示商品列表页面 查出数据 返回前端生成相应的html 添加进列表中
+        $('#goodslist-btn').click(function() {
+//				$('#home-page').hide();
+            $('.page').hide();
+            $('.goodsinfo').remove();
+            $.get('/home/index/goodslistAjax',function(data,status){
+//					console.log(status);
+//					console.log(data);
+                $('#goods-page').html(data.page);//innerHTML=".."
+                console.log(data);
+                $.each(data.list,function(index,item){
+                    // console.log(item.goods_sku);
+//						LIST=DATA.LIST   LIST[INDEX]=ITEM
+                    var tr='<tr class="goodsinfo" id="'+item.id+'">' +
+                        '<td>'+item.goods_sku+'</td>'+
+                        '<td>'+item.goods_name+'</td>'+
+                        '<td>'+item.goods_stock+'</td>'+
+                        '<td>'+item.goods_price+'</td>'+
+                        '<td><span class="label label-sm label-success">'+item.status+'</span></td>';
+                    $('.goodsInfoList').append(tr);
+                });
+            },'json');
+            $('#goodslist').show();
+
+            return false;
+        });
+
+        //商品列表翻页  .click缩写方法无法监听预加载前不存在的标签所触发的事件
+//			$('.laypage_main .num').click(function(){
+//				console.log(123);
+//				return false;
+//			});
+        //商品列表翻页 点击分页页码 ->获取url ->get发送给后台查出数据后返回 ->生成html后添加到列表中
+        $(document).on('click','.laypage_main a',function(){
+//				console.log(123);
+//				var a=$(this);
+//				console.log(a);
+            var url=$(this).attr('href');
+//				<a class="num" href="/index.php/Home/Index/goodslistAjax/p/3.html">3</a>
+//				var rule=new RegExp("\d");
+            var patrn=/[0-9]/;
+            var result=patrn.exec(url);
+//				console.log(result);
+            var page=result[0];
+//				$.post('/home/index/get_goodsinfo', { 'page': page }, function(data){
+            $.get(url,{ 'page': page },function(data){
+                $('.goodsinfo').remove();
+                console.log(data);
+                $('#goods-page').html(data.page);
+                $.each(data.list,function(index,item){
+                    var tr='<tr class="goodsinfo" id="'+item.id+'">' +
+                        '<td>'+item.goods_sku+'</td>'+
+                        '<td>'+item.goods_name+'</td>'+
+                        '<td>'+item.goods_stock+'</td>'+
+                        '<td>'+item.goods_price+'</td>'+
+                        '<td><span class="label label-sm label-success">'+item.status+'</span></td>';
+                    $('.goodsInfoList').append(tr);
+                });
+                $('#goodslist').show();
+            },'json');
+
+
+            return false;
+        });
+
+
+        //添加商品页面 选择图片 生成缩略图
+        $(document).on('change','#goods_img_file',function(){
+//			$('#goods_img_file').change(function () {
+
+            $.ajaxFileUpload({
+                url:'/home/goods/upload_img',//处理图片脚本
+                secureuri :false,
+                fileElementId :"goods_img_file",//file控件id
+                dataType : 'json',
+                success : function (data,status){
+                    console.log(data);
+                    // 图片上传成功后做相应操作
+                    if(status=='success'){
+                        $('input[name=goods_main_pic]').val(data.main_pic);
+                        $('input[name=goods_small_pic]').val(data.small_pic);
+                        var img='<img src="'+data.small_pic+'">';
+                        $('#show_upload_img').html(img);
+                    }else{
+//							alert(data.error);//
+                    }
+
+                },
+                error:function(data,status,e){
+                    // 上传出错信息
+                    //console.log(data);
+                    //console.log(e);
+                }
+            });
+//				return false;
+        });
+
+        //uploads...
+        //sku
+        //
+        //添加商品 ->以sku创建文件夹->移动最终图片文件夹内 ->添加数据库 ->删除外部不需要的图片->返回成功
+        $('#goods-add-btn').click(function(){
+            var add=$('.goods-add-form').serialize();
+            //$().toFixed(2);
+            console.log(add);
+            $.ajax({
+                type:'POST',
+                url:'/home/goods/goods_add',
+                data:add,
+//					dataType:'json',
+                success:function(data,status){
+//						console.log(status);
+                    var res=eval("("+data+")");
+//						console.log(res);
+                    if(res.status=='OK'){
+                        alert(res.data);
+//							confirm("添加成功,是否继续添加？"){
+//
+//							}else{
+//
+//							}
+                    }else{
+                        alert(res.data);
+                    }
+
+                }
+            });
+            return false;
+        });
+
+        //验证输入的SKU的唯一性
+        $(document).on('change','#check_sku',function(){
+            $('#check_sku').addClass('spinner');
+            var sku=$('#check_sku').val();
+            $.post('/home/goods/check_sku',{'goods_sku':sku},function(data){
+                console.log(data);
+                if(data == "OK"){
+                    $('#check_sku').removeClass('spinner');
+                    var span='<span><i class="fa fa-check"></i></span>'
+                    $('.msg').html(span);
+                }else{
+                    $('#check_sku').removeClass('spinner');
+                    var span='<span><i class="fa fa-times"></i>编号已存在</span>';
+                    $('.msg').html(span);
+                }
+            },'json');
+        });
+
+
+        $(document).on('ajaxStart', function(){
+            $('.page .page-change').hide();
+            $('.loading').show();
+            return false;
+        });
+
+
+        $(document).on('ajaxComplete',function(e,x,o){
+//				console.log(o);
+            $('.loading').hide();
+//				$('.page').show();
+
+            return false;
+        });
+    });
+</script>
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

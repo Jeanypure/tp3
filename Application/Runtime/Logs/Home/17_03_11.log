@@ -1,0 +1,380 @@
+[ 2017-03-11T15:16:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-11T15:16:03+08:00 ] 127.0.0.1 /home/users/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: return D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-11T15:16:09+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0170s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0120s ]
+SQL: select ss.suffix from Y_SuffixSalerman ss ORDER BY ss.suffix  [ RunTime:0.0130s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0120s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined variable: rate D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 248 行.
+NOTIC: [8] Undefined variable: rate D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 259 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-11T15:20:43+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='宋现中' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0100s ]
+SQL: select * from Y_manger WHERE manger='宋现中' [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: salesman D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\UsersController.class.php 第 110 行.
+NOTIC: [8] Undefined variable: platfrom D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\UsersController.class.php 第 111 行.
+NOTIC: [8] Undefined variable: result D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\UsersController.class.php 第 112 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-11T15:35:23+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='宋现中' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0100s ]
+SQL: select * from Y_manger WHERE manger='宋现中' [ RunTime:0.0080s ]
+SQL: select * from Y_SuffixSalerman where salesman='宋现中' order by suffix asc [ RunTime:0.0100s ]
+SQL: select distinct pingtai from Y_suffixPingtai ysp
+                LEFT JOIN Y_SuffixSalerman yss ON yss.suffix=ysp.suffix
+                WHERE yss.salesman='宋现中' 
+                 order by pingtai asc [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: salesman D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\UsersController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-11T15:52:31+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='宋现中' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0100s ]
+SQL: select * from Y_manger WHERE manger='宋现中' [ RunTime:0.0080s ]
+SQL: select * from Y_SuffixSalerman where salesman='宋现中' order by suffix asc [ RunTime:0.0080s ]
+SQL: select distinct pingtai from Y_suffixPingtai ysp
+                LEFT JOIN Y_SuffixSalerman yss ON yss.suffix=ysp.suffix
+                WHERE yss.salesman='宋现中' 
+                 order by pingtai asc [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: salesman D:\phpStudy20161103\WWW\tp3\Application\Home\Controller\UsersController.class.php 第 97 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-11T15:54:43+08:00 ] 127.0.0.1 /home/users/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM [y_user] WHERE ( username='admin' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0090s ]
+SQL: select * from Y_manger WHERE manger='admin' [ RunTime:0.0080s ]
+SQL: select ss.suffix from Y_SuffixSalerman ss ORDER BY ss.suffix  [ RunTime:0.0090s ]
+SQL: select distinct salesman from Y_SuffixSalerman order by salesman asc [ RunTime:0.0090s ]
+SQL: SELECT DISTINCT pingtai from Y_suffixPingtai [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined index: pingtai D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 202 行.
+NOTIC: [8] Undefined variable: rate D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 248 行.
+NOTIC: [8] Undefined variable: rate D:\phpStudy20161103\WWW\tp3\Application\Runtime\Cache\Home\994f9dfdb24ed6d1a0ae375e9078d984.php 第 259 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

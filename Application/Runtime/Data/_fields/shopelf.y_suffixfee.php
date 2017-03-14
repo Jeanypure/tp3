@@ -1,0 +1,1 @@
+a:3:{i:0;s:6:"suffix";i:1;s:6:"refund";s:5:"_type";a:2:{s:6:"suffix";s:7:"varchar";s:6:"refund";s:5:"float";}}

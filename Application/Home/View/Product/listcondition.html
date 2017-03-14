@@ -1,0 +1,116 @@
+<include file="Public:header" />
+
+<div class="clearfix"></div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN SIDEBAR -->
+    <include file="Public:nav" />
+    <!-- END SIDEBAR -->
+    <!-- BEGIN PAGE -->
+    <div class="page-content">
+
+        <!-- BEGIN PAGE HEADER-->
+        <div class="row page" >
+            <div class="col-md-12">
+
+                <form class="form-horizontal myclass"   action="{:U('Home/Product/index')} " method="post">
+                    <div class="portlet box red">
+                        <div class="portlet-title">
+                            <div class="caption"><i class="fa fa-globe"></i>查询条件</div>
+                            <div class="tools">
+                                <a href="javascript:;" class="reload"></a>
+                                <a href="javascript:;" class="remove"></a>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="form-group" >
+                                <label for="pingtai" class="col-sm-1 control-label" >平台</label>
+                                <div class="col-sm-2" >
+                                    <select name="pingtai"  class="form-control">
+                                        <option value=""></option>
+                                        <volist name="plat" id="vo">
+                                            <option value="{$vo.pingtai}">{$vo.pingtai}</option>
+                                        </volist>
+
+                                    </select>
+                                </div>
+
+                                <div class="col-sm-2">
+                                <select name="DateFlag" class="col-sm-2 form-control">
+                                    <option value="1">发货时间</option>
+                                    <option value="0">交易时间</option>
+                                </select>
+                                </div>
+                                <div class="col-sm-2">
+                                    <input type="date" name="BeginDate" class="form-control" required/>
+                                    <!--<input id="d11" type="text" name="BeginDate" class="form-control" placeholder="BeginDate" required="required">-->
+                                    <!--<img onclick="WdatePicker({el:'d11'})" src="__PUBLIC__/My97DatePicker/skin/datePicker.gif" width="16" height="22" align="absmiddle">-->
+                                </div>
+                                <div class="col-sm-2">
+                                    <input type="date" name="EndDate" class="form-control" required/>
+                                    <!--<input id="d12" type="text" name="EndDate" class="form-control"  placeholder="EndDate" required="required">-->
+                                    <!--<img onclick="WdatePicker({el:'d12'})" src="__PUBLIC__/My97DatePicker/skin/datePicker.gif" width="16" height="22" align="absmiddle">-->
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                    <label  class="col-sm-1 control-label" >账号</label>
+                                    <div class="col-sm-2" >
+                                        <select name="suffix[]" class="form-control selectpicker" multiple data-actions-box="true" >
+                                            <volist name="result" id="vo">
+                                                <option value="{$vo.suffix}">{$vo.suffix}</option>
+                                            </volist>
+
+                                        </select>
+                                    </div>
+                                    <label for="StoreName" class="col-sm-1 control-label" >出货仓库</label>
+                                    <div class="col-sm-2" >
+                                        <select name="StoreName[]"  class="form-control selectpicker"  multiple data-actions-box="true" >
+                                            <option value="义务仓">义务仓</option>
+                                            <option value="FBW仓库">FBW仓库</option>
+                                            <option value="AMZ上海仓">AMZ上海仓</option>
+                                            <option value="FBA仓库">FBA仓库</option>
+                                            <option value="4PXUS">4PXUS</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-sm-1" >
+                                        <input  name="button" type="submit" class="btn btn-default btn-primary btn-lg btn-block"  id="form-sale-btn" value="查询">
+                                    </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <!-- END PAGE -->
+
+</div>
+<!-- END CONTAINER -->
+<!-- BEGIN FOOTER -->
+<div class="footer">
+    <div class="footer-inner">
+        2013 &copy; Metronic by keenthemes.
+    </div>
+    <div class="footer-tools">
+			<span class="go-top">
+			<i class="fa fa-angle-up"></i>
+			</span>
+    </div>
+</div>
+<!-- END FOOTER -->
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+
+<script src="//cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/bootstrap-select.min.js"></script>
+<script src="__PUBLIC__/js/moment.min.js"></script>
+<script src="__PUBLIC__/js/zh-cn.js"></script>
+<script src="__PUBLIC__/js/sidebar.js"></script>
+
